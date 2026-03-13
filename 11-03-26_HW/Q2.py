@@ -56,6 +56,7 @@ def get_statistics(numbers)->dict:
         'avg': statistics.mean(numbers),
         'min': min(numbers),
         'max': max(numbers),
+        'length': len(numbers)
     }
     return _result
 
