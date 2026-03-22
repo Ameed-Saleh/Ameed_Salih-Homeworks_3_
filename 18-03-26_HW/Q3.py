@@ -74,10 +74,10 @@ def play_game():
     money = 50
     print(f"\n{MAROON}>>>>>>  SLOT MACHINE  <<<<<< {RESET}")
     while money > 0:
-        time.sleep(2)
+        time.sleep(1.5)
         print(f"\n{LIME}Current Balance: {RED}${money}{RESET}")
 
-        bet_input = input(f"{PURPLE}Enter your bet (or 'q' to quit): {RESET}").lower()
+        bet_input = input(f"{PURPLE}Enter your bet or ('q' to quit): {RESET}").lower()
         if bet_input == 'q':
             break
         if not bet_input.isdigit():
