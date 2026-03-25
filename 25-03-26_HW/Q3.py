@@ -36,7 +36,11 @@ def check_sender(email: str) -> bool:
             return False
 
     return True
+email1 = "stephen.marquard@uct.ac.za"
+print(f"\nemail1: {email1}\nresult: {check_sender(email1)}")
 
-print(check_sender("stephen.marquard@uct.ac.za"))
-print(check_sender("am.salih@org.com"))
-print(check_sender("nhs.marquard@uct.co.il"))
+email2 = "am.salih@org.com"
+print(f"\nemail2: {email2}\nresult: {check_sender(email2)}")
+
+email3 = "nhs.marquard@uct.co.il"
+print(f"\nemail3: {email3}\nresult: {check_sender(email3)}")
