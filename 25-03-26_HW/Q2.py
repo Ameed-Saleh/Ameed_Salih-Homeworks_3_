@@ -19,8 +19,7 @@ def count_freq(sentence: str) -> dict[str, int]:
     return dict1
 
 text1 = "To be or not to be"
-print(f"\ntext1: {text1}")
-print(count_freq(text1))
+print(f"\ntext1: {text1}\nresult: {count_freq(text1)}")
+
 text2 = "To be or not to be To Be Not or Or be"
-print(f"\ntext2: {text2}")
-print(count_freq(text2))
+print(f"\ntext2: {text2}\nresult: {count_freq(text2)}")

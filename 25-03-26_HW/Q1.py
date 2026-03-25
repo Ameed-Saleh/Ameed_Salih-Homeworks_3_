@@ -21,8 +21,7 @@ def camel_to_snake(name: str) -> str:
 
 
 str1 = "preferredFirstName"
-print(f"\nstr2: {str1}\nresult: {camel_to_snake(str1)}")
-
+print(f"\nstr1: {str1}\nresult: {camel_to_snake(str1)}")
 
 str2 = "HiEtayHowAreYou"
 print(f"\nstr2: {str2}\nresult: {camel_to_snake(str2)}")
